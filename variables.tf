@@ -7,10 +7,10 @@ variable "repository_name" {
   description = "The GitHub Repository Name"
 }
 variable "bucket_name" {
-  type = string
+  type        = string
   description = "The bucket name for deployments"
 }
 variable "distribution_id" {
-  type = string
+  type        = string
   description = "The distribution ID"
 }
